@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Muhammed Habeeb K — Flutter Developer portfolio. Mobile apps, Firebase, Bloc, AI integrations, dashboards and modern UI/UX." />
+  <title>Muhammed Habeeb K — Flutter Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="logo" href="#hero" aria-label="Go to home">
+        <span class="logo-mark">MH</span>
+        <span>Muhammed Habeeb</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMobile()">About</a>
+    <a href="#skills" onclick="closeMobile()">Skills</a>
+    <a href="#projects" onclick="closeMobile()">Projects</a>
+    <a href="#process" onclick="closeMobile()">Process</a>
+    <a href="#contact" onclick="closeMobile()">Contact</a>
+  </div>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="pill"><span class="dot"></span> Available for Flutter freelance work</div>
+          <h1>Flutter<br><span class="gradient">Developer</span></h1>
+          <p class="hero-copy">
+            I build clean, fast and modern mobile apps using Flutter, Firebase, Bloc, REST APIs and AI-powered
+            integrations. Focused on real-world products, smooth UI/UX and reliable app architecture.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects →</a>
+            <a class="btn btn-ghost" href="#contact">Hire Me</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat"><strong>1+</strong><span>Year learning & building</span></div>
+            <div class="stat"><strong>10+</strong><span>App screens & modules</span></div>
+            <div class="stat"><strong>2025</strong><span>Flutter course completed</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="floating-chip one">Firebase • Bloc • Cloudinary</div>
+          <div class="floating-chip two">Mobile-first UI/UX</div>
+
+          <div class="phone">
+            <div class="phone-screen">
+              <div class="app-top">
+                <div class="mini-avatar">M</div>
+                <div class="signal"><i></i><i></i><i></i></div>
+              </div>
+              <div class="app-title">Building apps that feel premium.</div>
+              <div class="mini-card">
+                <div class="label">Current Focus</div>
+                <strong>Flutter + Firebase Products</strong>
+                <div class="progress"><span style="width: 86%"></span></div>
+              </div>
+              <div class="mini-card">
+                <div class="label">Recent Modules</div>
+                <p>Chat, profiles, timelines, dashboards, AI assistant UI and order systems.</p>
+              </div>
+              <div class="mini-card">
+                <div class="label">Design Style</div>
+                <p>Dark premium layouts, smooth animations, clean cards and mobile-first details.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-kicker">01 / ABOUT</div>
+            <h2 class="section-title">About Me</h2>
+          </div>
+          <p class="section-text">
+            I am a Flutter developer from Kerala, focused on creating practical mobile apps with modern interfaces,
+            Firebase backends and clean scalable code.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <h3>Who I Am</h3>
+            <p>
+              I completed my Flutter development course in 2025 and also completed a 1-month internship at Zoople
+              Technology, Ernakulam. I enjoy turning ideas into usable mobile products with smooth UI and strong backend
+              integration.
+            </p>
+          </div>
+
+          <div class="about-card reveal">
+            <h3>Journey</h3>
+            <div class="timeline">
+              <div class="time-item"><span>2024</span>
+                <p>Completed higher secondary education at Madin Academy, Malappuram.</p>
+              </div>
+              <div class="time-item"><span>2025</span>
+                <p>Completed Flutter development course and started building real app projects.</p>
+              </div>
+              <div class="time-item"><span>Internship</span>
+                <p>Worked as Flutter intern at Zoople Technology, Ernakulam.</p>
+              </div>
+              <div class="time-item"><span>Now</span>
+                <p>Building freelance-ready mobile apps, AI tools and Firebase-powered products.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-kicker">02 / SKILLS</div>
+            <h2 class="section-title">Tech Stack</h2>
+          </div>
+          <p class="section-text">Tools and technologies I use to build apps, dashboards, AI interfaces and
+            backend-connected products.</p>
+        </div>
+
+        <div class="about-card reveal">
+          <div class="skills-wrap">
+            <span class="skill">Flutter</span>
+            <span class="skill">Dart</span>
+            <span class="skill">Material UI</span>
+            <span class="skill">Animations</span>
+            <span class="skill">Responsive UI</span>
+            <span class="skill">Bloc / Cubit</span>
+            <span class="skill">Provider</span>
+            <span class="skill">Clean Architecture</span>
+            <span class="skill">MVVM</span>
+            <span class="skill">Repository Pattern</span>
+            <span class="skill">Firebase Auth</span>
+            <span class="skill">Cloud Firestore</span>
+            <span class="skill">REST APIs</span>
+            <span class="skill">Supabase</span>
+            <span class="skill">Cloudinary</span>
+            <span class="skill">Hive</span>
+            <span class="skill">SharedPreferences</span>
+            <span class="skill">Caching</span>
+            <span class="skill">Pagination</span>
+            <span class="skill">Lazy Loading</span>
+            <span class="skill">Git / GitHub</span>
+            <span class="skill">Firebase Hosting</span>
+            <span class="skill">Railway</span>
+            <span class="skill">OneSignal</span>
+            <span class="skill">Groq</span>
+            <span class="skill">Gemini API</span>
+          </div>
+        </div>
+
+        <div class="services-grid" style="margin-top: 20px;">
+          <div class="service-card reveal">
+            <div class="icon-box">📱</div>
+            <h3>Mobile App Development</h3>
+            <p>Flutter apps with clean architecture, responsive screens, authentication, APIs and smooth app flows.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="icon-box">🔥</div>
+            <h3>Firebase Integration</h3>
+            <p>Auth, Firestore, realtime data, user profiles, push notifications and backend-connected features.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="icon-box">✨</div>
+            <h3>Modern UI/UX</h3>
+            <p>Premium app screens, animations, cards, dashboards, dark themes and polished user experiences.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-kicker">03 / PROJECTS</div>
+            <h2 class="section-title">Selected Work</h2>
+          </div>
+          <p class="section-text">Projects from my resume and practical development work.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-cover">
+              <span class="project-number">PROJECT 01</span>
+              <h3>Voxa / Synapse</h3>
+            </div>
+            <div class="project-body">
+              <p>A real-time chat and freelance deal app with Firebase Auth, email verification, Firestore messaging,
+                user search, Hive local caching, profile management, credibility details, ratings and premium deal
+                cards.</p>
+              <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase Auth</span><span
+                  class="tag">Firestore</span><span class="tag">Hive</span><span class="tag">Supabase</span><span
+                  class="tag">Bloc</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover">
+              <span class="project-number">PROJECT 02</span>
+              <h3>Calicut Bakery / Cafe Ordering Platform</h3>
+            </div>
+            <div class="project-body">
+              <p>A cafe order collection web flow backed by Firebase with a Flutter dashboard for admin operations,
+                order status tracking, structured cart/order models, totals, timestamps and daily revenue visibility.
+              </p>
+              <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span><span
+                  class="tag">Firestore</span><span class="tag">Web Dashboard</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover">
+              <span class="project-number">PROJECT 03</span>
+              <h3>Kerala AI Tourism Discovery Platform</h3>
+            </div>
+            <div class="project-body">
+              <p>An AI travel discovery platform with chat-style responses, place cards, images and destination ranking,
+                supported by Flask APIs for chat, place search, trending places, cache refresh and Railway deployment
+                with Firebase data.</p>
+              <div class="tags"><span class="tag">Flutter/Web</span><span class="tag">Flask</span><span
+                  class="tag">Firebase</span><span class="tag">Groq LLM</span><span class="tag">Railway</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover">
+              <span class="project-number">PROJECT 04</span>
+              <h3>Talk-to-Track</h3>
+            </div>
+            <div class="project-body">
+              <p>An AI expense tracker with voice/text expense entry, AI parsing, category detection and reactive
+                Bloc-based UI.</p>
+              <div class="tags"><span class="tag">Flutter</span><span class="tag">Gemini API</span><span
+                  class="tag">Bloc</span><span class="tag">Expense Tracker</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover">
+              <span class="project-number">PROJECT 05</span>
+              <h3>Smart Business Calculator</h3>
+            </div>
+            <div class="project-body">
+              <p>A calculator-first billing app with transaction saving, daily summary and shareable bill output for
+                small business workflows.</p>
+              <div class="tags"><span class="tag">Flutter</span><span class="tag">Local Storage</span><span
+                  class="tag">Billing</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover">
+              <span class="project-number">PROJECT 06</span>
+              <h3>Smart Task Manager</h3>
+            </div>
+            <div class="project-body">
+              <p>A clean task management app with CRUD, search, sort, pagination, error handling and offline-friendly
+                data structure.</p>
+              <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">Clean
+                  Architecture</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover">
+              <span class="project-number">PROJECT 07</span>
+              <h3>User Management App</h3>
+            </div>
+            <div class="project-body">
+              <p>A user management app with authentication, profile management, image upload, search, sort and lazy
+                loading.</p>
+              <div class="tags"><span class="tag">Flutter</span><span class="tag">Auth</span><span class="tag">Image
+                  Upload</span><span class="tag">Lazy Loading</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover">
+              <span class="project-number">PROJECT 08</span>
+              <h3>Crypto Tracker</h3>
+            </div>
+            <div class="project-body">
+              <p>A crypto tracking app with real-time crypto price data, REST API integration and interactive chart
+                views.</p>
+              <div class="tags"><span class="tag">Flutter</span><span class="tag">REST API</span><span
+                  class="tag">Charts</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover">
+              <span class="project-number">PROJECT 09</span>
+              <h3>Color Detection App</h3>
+            </div>
+            <div class="project-body">
+              <p>An accessibility-focused app that detects colors from camera input and provides voice output.</p>
+              <div class="tags"><span class="tag">Flutter</span><span class="tag">Camera</span><span
+                  class="tag">Accessibility</span><span class="tag">Voice Output</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-kicker">04 / PROCESS</div>
+            <h2 class="section-title">How I Work</h2>
+          </div>
+          <p class="section-text">A simple development flow for turning app ideas into clean, working mobile products.
+          </p>
+        </div>
+
+        <div class="process">
+          <div class="process-item reveal">
+            <div>
+              <h3>Understand the idea</h3>
+              <p>I first understand the problem, users, screens, required features and the fastest way to build a useful
+                first version.</p>
+            </div>
+          </div>
+          <div class="process-item reveal">
+            <div>
+              <h3>Design the app flow</h3>
+              <p>I create clean screen structure, navigation, state flow and UI style so the app feels modern and easy
+                to use.</p>
+            </div>
+          </div>
+          <div class="process-item reveal">
+            <div>
+              <h3>Build with Flutter</h3>
+              <p>I develop responsive Flutter screens, connect Firebase/APIs, manage state and test common real-world
+                flows.</p>
+            </div>
+          </div>
+          <div class="process-item reveal">
+            <div>
+              <h3>Polish and improve</h3>
+              <p>I improve animations, loading states, empty states, error handling and final UX details to make the
+                product feel premium.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-kicker">05 / CONTACT</div>
+            <h2 class="section-title">Let’s Build</h2>
+          </div>
+          <p class="section-text">Need a Flutter app, Firebase setup, dashboard, AI frontend or premium mobile UI? Let’s
+            talk.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card big reveal">
+            <div>
+              <h2>Have an app idea?</h2>
+              <p style="margin-top: 20px;">I am open to freelance Flutter work, internship opportunities and real
+                product collaborations.</p>
+            </div>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="mailto:habeebmd227@gmail.com">Email Me →</a>
+              <a class="btn btn-ghost" href="tel:+919071914450">Call / WhatsApp</a>
+            </div>
+          </div>
+
+          <div class="contact-card reveal">
+            <h3>Email</h3>
+            <div class="contact-line">
+              <a href="mailto:habeebmd227@gmail.com">habeebmd227@gmail.com</a>
+              <span>↗</span>
+            </div>
+          </div>
+
+          <div class="contact-card reveal">
+            <h3>Phone</h3>
+            <div class="contact-line">
+              <a href="tel:+919071914450">+91 9071914450</a>
+              <span>☎</span>
+            </div>
+          </div>
+
+          <div class="contact-card reveal">
+            <h3>Location</h3>
+            <div class="contact-line">
+              <span>Kerala, India</span>
+              <span>📍</span>
+            </div>
+          </div>
+
+          <div class="contact-card reveal">
+            <h3>Status</h3>
+            <div class="contact-line">
+              <span>Open to Flutter roles</span>
+              <span>✅</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>© <span id="year"></span> Muhammed Habeeb K. All rights reserved.</span>
+      <span>Built with HTML, CSS and JavaScript.</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
