@@ -13,6 +13,14 @@
 <body>
   <div class="noise"></div><div class="scroll-progress" id="scrollProgress"></div>
   <div class="loader" id="loader"><div class="loader-mark">MH<span>.</span></div><div class="loader-track"><i></i></div><p>CRAFTING DIGITAL EXPERIENCES</p></div>
+  <script>
+    // Emergency visual fallback: the page must remain usable even if main.js or a CDN fails.
+    window.setTimeout(function () {
+      var intro = document.getElementById('loader');
+      if (intro) intro.remove();
+      document.documentElement.classList.remove('js');
+    }, 2200);
+  </script>
   <div class="cursor-dot" id="cursorDot"></div><div class="cursor-aura" id="cursorAura"></div>
   <nav class="nav" id="navbar"><a class="brand" href="#home" aria-label="Habeeb home"><span class="brand-icon">H</span><span>HABEEB<span class="brand-period">.</span></span></a>
     <div class="nav-links"><a href="#about">About</a><a href="#expertise">Expertise</a><a href="#work">Selected work</a><a href="#journey">Journey</a></div>
